@@ -17,12 +17,22 @@ pi_grupo2_seguranca_cibernetica_global_cybersecurity_threats_2015-2024.sql
 O modelo estrela é a arquitetura mais comum para Data Warehouses, sendo composto por uma tabela central, chamada Tabela de Fatos, que se conecta diretamente a várias Tabelas de Dimensão.
 
 Arquivo para criação da Tabela de Fatos e das Tabelas de Dimensões:  
-TABELAS_FATO_E_DIMENSOES_DDL.sql
+  TABELAS_FATO_E_DIMENSOES_DDL.sql
 
 Arquivo para inserção de dados nas Tabelas de Dimensões:  
-INSERIR_DADOS_TABELAS_DIMENSOES_DML.sql
+  INSERIR_DADOS_TABELAS_DIMENSOES_DML.sql
 
 Arquivo para inserção de dados na Tabela de Fatos a partir do BD 'pi_grupo2_seguranca_cibernetica', tabela `global_cybersecurity_threats_2015-2024, obtidos na importação (Table Data Import Wizard) da fonte de dados em csv:  
-INSERIR_DADOS_TABELA_FATO_DML.sql
+  INSERIR_DADOS_TABELA_FATO_DML.sql
+
+O Banco de Dados AmeacasGlobaisSegurancaCibernetica resultante dos scrips acima possui as seguintes tabelas:
+  ameacasglobaissegurancacibernetica_dim_attack_origin.sql
+  ameacasglobaissegurancacibernetica_dim_attack_type.sql
+  ameacasglobaissegurancacibernetica_dim_country.sql
+  ameacasglobaissegurancacibernetica_dim_defense_mechanism.sql
+  ameacasglobaissegurancacibernetica_dim_target_sector.sql
+  ameacasglobaissegurancacibernetica_dim_vulnerability_type.sql
+  ameacasglobaissegurancacibernetica_dim_year.sql
+  ameacasglobaissegurancacibernetica_fact_incident.sql
 
 ### PROCESSO ETL
