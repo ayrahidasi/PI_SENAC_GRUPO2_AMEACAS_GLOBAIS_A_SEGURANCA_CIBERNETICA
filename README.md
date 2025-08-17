@@ -26,13 +26,13 @@ Arquivo para inserção de dados na Tabela de Fatos a partir do BD 'pi_grupo2_se
   INSERIR_DADOS_TABELA_FATO_DML.sql
 
 O Banco de Dados AmeacasGlobaisSegurancaCibernetica resultante dos scrips acima possui as seguintes tabelas:
-  ameacasglobaissegurancacibernetica_dim_attack_origin.sql
-  ameacasglobaissegurancacibernetica_dim_attack_type.sql
-  ameacasglobaissegurancacibernetica_dim_country.sql
-  ameacasglobaissegurancacibernetica_dim_defense_mechanism.sql
-  ameacasglobaissegurancacibernetica_dim_target_sector.sql
-  ameacasglobaissegurancacibernetica_dim_vulnerability_type.sql
-  ameacasglobaissegurancacibernetica_dim_year.sql
-  ameacasglobaissegurancacibernetica_fact_incident.sql
+  ameacasglobaissegurancacibernetica_dim_attack_origin.sql  
+  ameacasglobaissegurancacibernetica_dim_attack_type.sql  
+  ameacasglobaissegurancacibernetica_dim_country.sql  
+  ameacasglobaissegurancacibernetica_dim_defense_mechanism.sql  
+  ameacasglobaissegurancacibernetica_dim_target_sector.sql  
+  ameacasglobaissegurancacibernetica_dim_vulnerability_type.sql  
+  ameacasglobaissegurancacibernetica_dim_year.sql  
+  ameacasglobaissegurancacibernetica_fact_incident.sql  
 
 ### PROCESSO ETL
