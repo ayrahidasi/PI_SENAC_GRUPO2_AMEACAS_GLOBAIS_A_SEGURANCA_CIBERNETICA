@@ -8,9 +8,11 @@ https://docs.google.com/document/d/1QW7HildWLNksF3gwK-DW1cs8B7kDp1VU/edit
 ### FONTE DE DADOS
 "Global Cybersecurity Threats (2015–2024)"  
 https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
+Arquivo da fonte de dados csv:
+01_Global_Cybersecurity_Threats_2015-2024.csv
 
 ### EXTRAÇÃO DA FONTE DE DADOS CSV PARA BD MYSQL
-Arquivo obtido na importação (Table Data Import Wizard) da fonte de dados em csv:
+Arquivo obtido na importação (Table Data Import Wizard) da fonte de dados em csv:  
 02_pi_grupo2_seguranca_cibernetica_global_cybersecurity_threats_2015-2024.sql
 
 ### MODELAGEM DE DADOS: MODELO ESTRELA
