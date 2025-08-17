@@ -2,11 +2,11 @@
 
 ## AMEAÇAS GLOBAIS Á SEGURANÇA CIBERNÉTICA
 
-Link para colaboração no Google Drive:
+Link para colaboração no Google Drive:  
 https://docs.google.com/document/d/1QW7HildWLNksF3gwK-DW1cs8B7kDp1VU/edit
 
 ### FONTE DE DADOS
-"Global Cybersecurity Threats (2015–2024)"
+"Global Cybersecurity Threats (2015–2024)"  
 https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
 
 ### EXTRAÇÃO DA FONTE DE DADOS CSV PARA BD MYSQL
