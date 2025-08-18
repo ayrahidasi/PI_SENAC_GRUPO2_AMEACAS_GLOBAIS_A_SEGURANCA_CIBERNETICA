@@ -1,4 +1,5 @@
 -- Inserir dados na Tabela Fatos
+
 USE ameacasglobaissegurancacibernetica;
 INSERT INTO fact_incident(
     id_country, id_year, id_attack_type, id_target_sector,
@@ -24,3 +25,4 @@ JOIN dim_target_sector s ON g.`Target Industry` = s.target_sector
 JOIN dim_attack_origin o ON g.`Attack Source` = o.attack_origin
 JOIN dim_vulnerability_type v ON g.`Security Vulnerability Type` = v.vulnerability_type
 JOIN dim_defense_mechanism d ON g.`Defense Mechanism Used` = d.defense_mechanism;
+
