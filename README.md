@@ -52,6 +52,8 @@ O Banco de Dados AmeacasGlobaisSegurancaCibernetica resultante dos scrips acima 
   ameacasglobaissegurancacibernetica_fact_incident.sql  
 
 ### Atividades de Apoio Decisório e OLAP  
+A partir da base de dados, foi possível definir um conjunto de análises que contribuem diretamente para a tomada de decisões em níveis estratégico e operacional.O modelo de dados é estruturado em um esquema estrela, , tendo como núcleo a tabela de fatos fact_incident, que consolida as métricas quantitativas dos incidentes. Essa tabela se conecta às tabelas de dimensão, que fornecem o contexto categórico para as análises.
+
 Visão Estratégica: KPIs como perdas financeiras, usuários afetados, tempo médio de resolução  
 Análise Multidimensional: Slicing, dicing, drill-down e pivotagem com parâmetros de campo  
 Medidas DAX:  
