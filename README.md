@@ -25,7 +25,7 @@ Arquivo para inserção de dados nas Tabelas de Dimensões:
   04_INSERIR_DADOS_TABELAS_DIMENSOES_DML.sql
 
 Arquivo para inserção de dados na Tabela de Fatos a partir do BD 'pi_grupo2_seguranca_cibernetica', tabela `global_cybersecurity_threats_2015-2024, obtidos na importação (Table Data Import Wizard) da fonte de dados em csv:  
-  05_INSERIR_DADOS_TABELA_FATO_DML.sql
+  05_INSERIR_DADOS_TABELA_FATOS_DML.sql
 
 O Banco de Dados AmeacasGlobaisSegurancaCibernetica resultante dos scrips acima possui as seguintes tabelas:
   ameacasglobaissegurancacibernetica_dim_attack_origin.sql  
