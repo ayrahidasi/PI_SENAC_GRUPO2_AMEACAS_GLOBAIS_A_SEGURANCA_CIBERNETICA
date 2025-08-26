@@ -52,7 +52,7 @@ O Banco de Dados AmeacasGlobaisSegurancaCibernetica resultante dos scrips acima 
   ameacasglobaissegurancacibernetica_fact_incident.sql  
 
 ### Atividades de Apoio Decisório e OLAP  
-A partir da base de dados, foi possível definir um conjunto de análises que contribuem diretamente para a tomada de decisões em níveis estratégico e operacional.O modelo de dados é estruturado em um esquema estrela, , tendo como núcleo a tabela de fatos fact_incident, que consolida as métricas quantitativas dos incidentes. Essa tabela se conecta às tabelas de dimensão, que fornecem o contexto categórico para as análises.
+A partir da base de dados, foi possível definir um conjunto de análises que contribuem diretamente para a tomada de decisões em níveis estratégico e operacional. O modelo de dados é estruturado em um esquema estrela, tendo como núcleo a tabela de fatos fact_incident, que consolida as métricas quantitativas dos incidentes. Essa tabela se conecta às tabelas de dimensão, que fornecem o contexto categórico para as análises.
 
 Visão Estratégica: KPIs como perdas financeiras, usuários afetados, tempo médio de resolução  
 Análise Multidimensional: Slicing, dicing, drill-down e pivotagem com parâmetros de campo  
@@ -63,6 +63,9 @@ Medidas DAX:
   Number of Incidents  
   Dynamic Measure  
   Chart Title  
+
+### Vídeo demonstrativo
+https://github.com/user-attachments/assets/6912016c-808d-4c53-8289-c399ba44d3d9
 
 ### Compartilhamento no GitHub
 O projeto está disponível publicamente para consulta e colaboração:  
